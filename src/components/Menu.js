@@ -6,7 +6,7 @@ import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } f
 
 function Menu() {
     
-    const [isOpen, setIsOpen] = useState();
+    const [isOpen, setIsOpen] = useState(false);
     const toggle = () =>setIsOpen(!isOpen);
 
     return (
